@@ -1,2 +1,2 @@
 # AI
-Some codes related to ML, DL and RL
+Some codes related to AI and its Subs
