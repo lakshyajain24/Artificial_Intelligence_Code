@@ -23,7 +23,7 @@ from sqlalchemy import create_engine
 # ================================custom functions=============================
 
 def connect_mongo_postgress():
-    client = MongoClient(host= "192.168.0.8", port=27017,username='root',password='rootpassword')
+    client = MongoClient(host= "52.66.24.54", port=27017,username='root',password='rootpassword')
     mongodata = client.answers
     users_mongo = mongodata.data
     df= pd.DataFrame(list(users_mongo.find()))
@@ -53,7 +53,7 @@ def connect_mongo_postgress():
         df_new[col] = df_new[col].map(lambda a: " , ".join(a),na_action='ignore')
     
     #Connection with Postgresql
-    conn_string = 'postgresql://airflow:airflow@192.168.0.8/airflow'
+    conn_string = 'postgresql://airflow:airflow@52.66.24.54/airflow'
     db = create_engine(conn_string)
     conn = db.connect()
     
@@ -136,7 +136,7 @@ def connect_mongo_postgress():
                 
     
     
-    conn_string = 'postgresql://airflow:airflow@192.168.0.8/airflow'
+    conn_string = 'postgresql://airflow:airflow@52.66.24.54/airflow'
     db = create_engine(conn_string)
     conn = db.connect()
     
@@ -155,7 +155,7 @@ def connect_mongo_postgress():
 
 def connect_minio():
 
-    client = MongoClient(host= "192.168.0.8", port=27017,username='root',password='rootpassword')
+    client = MongoClient(host= "52.66.24.54", port=27017,username='root',password='rootpassword')
     mongodata = client.answers
     users_mongo = mongodata.data
     df= pd.DataFrame(list(users_mongo.find()))
@@ -305,7 +305,7 @@ def connect_minio():
     #Connecting with minio
     from minio import Minio
     clientminio = Minio(
-        endpoint="192.168.0.8:9000",
+        endpoint="52.66.24.54:9000",
         access_key="minio",
         secret_key="minio123",
         secure=False
