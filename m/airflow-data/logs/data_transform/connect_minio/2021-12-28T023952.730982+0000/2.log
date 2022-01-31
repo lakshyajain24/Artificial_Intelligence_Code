@@ -1,0 +1,64 @@
+[2021-12-28 03:06:57,216] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: data_transform.connect_minio 2021-12-28T02:39:52.730982+00:00 [queued]>
+[2021-12-28 03:06:57,235] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: data_transform.connect_minio 2021-12-28T02:39:52.730982+00:00 [queued]>
+[2021-12-28 03:06:57,235] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-28 03:06:57,236] {taskinstance.py:1043} INFO - Starting attempt 2 of 2
+[2021-12-28 03:06:57,236] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-28 03:06:57,246] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): connect_minio> on 2021-12-28T02:39:52.730982+00:00
+[2021-12-28 03:06:57,252] {standard_task_runner.py:52} INFO - Started process 74 to run task
+[2021-12-28 03:06:57,257] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'data_transform', 'connect_minio', '2021-12-28T02:39:52.730982+00:00', '--job-id', '60', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/data_transform.py', '--cfg-path', '/tmp/tmpqmk6ux3q', '--error-file', '/tmp/tmpw7p5bdfw']
+[2021-12-28 03:06:57,257] {standard_task_runner.py:77} INFO - Job 60: Subtask connect_minio
+[2021-12-28 03:06:57,318] {logging_mixin.py:104} INFO - Running <TaskInstance: data_transform.connect_minio 2021-12-28T02:39:52.730982+00:00 [running]> on host 5bb2b5ffa55c
+[2021-12-28 03:06:57,357] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=data_transform
+AIRFLOW_CTX_TASK_ID=connect_minio
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-28T02:39:52.730982+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-12-28T02:39:52.730982+00:00
+[2021-12-28 03:06:58,093] {logging_mixin.py:104} INFO - \60667c4c80a467001c362a86/2021-12-28/bigram.txt None
+[2021-12-28 03:06:58,131] {logging_mixin.py:104} INFO - \60667c4c80a467001c362a86/2021-12-28/trigram.txt None
+[2021-12-28 03:06:58,168] {logging_mixin.py:104} INFO - \60667c4c80a467001c362a86/2021-12-28/unigram.txt None
+[2021-12-28 03:06:58,199] {logging_mixin.py:104} INFO - \60667c5980a467001c362a87/2021-12-28/bigram.txt None
+[2021-12-28 03:06:58,242] {logging_mixin.py:104} INFO - \60667c5980a467001c362a87/2021-12-28/trigram.txt None
+[2021-12-28 03:06:58,259] {logging_mixin.py:104} INFO - \60667c5980a467001c362a87/2021-12-28/unigram.txt None
+[2021-12-28 03:06:58,293] {logging_mixin.py:104} INFO - \60667c6380a467001c362a88/2021-12-28/bigram.txt None
+[2021-12-28 03:06:58,390] {logging_mixin.py:104} INFO - \60667c6380a467001c362a88/2021-12-28/trigram.txt None
+[2021-12-28 03:06:58,433] {logging_mixin.py:104} INFO - \60667c6380a467001c362a88/2021-12-28/unigram.txt None
+[2021-12-28 03:06:58,482] {logging_mixin.py:104} INFO - \60667c9580a467001c362a8c/2021-12-28/bigram.txt None
+[2021-12-28 03:06:58,503] {logging_mixin.py:104} INFO - \60667c9580a467001c362a8c/2021-12-28/trigram.txt None
+[2021-12-28 03:06:58,522] {logging_mixin.py:104} INFO - \60667c9580a467001c362a8c/2021-12-28/unigram.txt None
+[2021-12-28 03:06:58,630] {logging_mixin.py:104} INFO - \60667c9f80a467001c362a8d/2021-12-28/bigram.txt None
+[2021-12-28 03:06:58,717] {logging_mixin.py:104} INFO - \60667c9f80a467001c362a8d/2021-12-28/trigram.txt None
+[2021-12-28 03:06:58,764] {logging_mixin.py:104} INFO - \60667c9f80a467001c362a8d/2021-12-28/unigram.txt None
+[2021-12-28 03:06:58,820] {logging_mixin.py:104} INFO - \60667cb180a467001c362a8e/2021-12-28/bigram.txt None
+[2021-12-28 03:06:58,899] {logging_mixin.py:104} INFO - \60667cb180a467001c362a8e/2021-12-28/trigram.txt None
+[2021-12-28 03:06:58,959] {logging_mixin.py:104} INFO - \60667cb180a467001c362a8e/2021-12-28/unigram.txt None
+[2021-12-28 03:06:59,010] {logging_mixin.py:104} INFO - \60667cc380a467001c362a8f/2021-12-28/bigram.txt None
+[2021-12-28 03:06:59,030] {logging_mixin.py:104} INFO - \60667cc380a467001c362a8f/2021-12-28/trigram.txt None
+[2021-12-28 03:06:59,079] {logging_mixin.py:104} INFO - \60667cc380a467001c362a8f/2021-12-28/unigram.txt None
+[2021-12-28 03:06:59,120] {logging_mixin.py:104} INFO - \60667cd680a467001c362a90/2021-12-28/bigram.txt None
+[2021-12-28 03:06:59,162] {logging_mixin.py:104} INFO - \60667cd680a467001c362a90/2021-12-28/trigram.txt None
+[2021-12-28 03:06:59,197] {logging_mixin.py:104} INFO - \60667cd680a467001c362a90/2021-12-28/unigram.txt None
+[2021-12-28 03:06:59,215] {logging_mixin.py:104} INFO - \60667ce880a467001c362a91/2021-12-28/bigram.txt None
+[2021-12-28 03:06:59,235] {logging_mixin.py:104} INFO - \60667ce880a467001c362a91/2021-12-28/trigram.txt None
+[2021-12-28 03:06:59,253] {logging_mixin.py:104} INFO - \60667ce880a467001c362a91/2021-12-28/unigram.txt None
+[2021-12-28 03:06:59,290] {logging_mixin.py:104} INFO - \60667cf380a467001c362a92/2021-12-28/bigram.txt None
+[2021-12-28 03:06:59,316] {logging_mixin.py:104} INFO - \60667cf380a467001c362a92/2021-12-28/trigram.txt None
+[2021-12-28 03:06:59,351] {logging_mixin.py:104} INFO - \60667cf380a467001c362a92/2021-12-28/unigram.txt None
+[2021-12-28 03:06:59,388] {logging_mixin.py:104} INFO - \60667cfc80a467001c362a93/2021-12-28/bigram.txt None
+[2021-12-28 03:06:59,412] {logging_mixin.py:104} INFO - \60667cfc80a467001c362a93/2021-12-28/trigram.txt None
+[2021-12-28 03:06:59,436] {logging_mixin.py:104} INFO - \60667cfc80a467001c362a93/2021-12-28/unigram.txt None
+[2021-12-28 03:06:59,486] {logging_mixin.py:104} INFO - \60667d0480a467001c362a94/2021-12-28/bigram.txt None
+[2021-12-28 03:06:59,514] {logging_mixin.py:104} INFO - \60667d0480a467001c362a94/2021-12-28/trigram.txt None
+[2021-12-28 03:06:59,647] {logging_mixin.py:104} INFO - \60667d0480a467001c362a94/2021-12-28/unigram.txt None
+[2021-12-28 03:06:59,706] {logging_mixin.py:104} INFO - \60667d1480a467001c362a95/2021-12-28/bigram.txt None
+[2021-12-28 03:06:59,731] {logging_mixin.py:104} INFO - \60667d1480a467001c362a95/2021-12-28/trigram.txt None
+[2021-12-28 03:06:59,753] {logging_mixin.py:104} INFO - \60667d1480a467001c362a95/2021-12-28/unigram.txt None
+[2021-12-28 03:06:59,801] {logging_mixin.py:104} INFO - \606759aed9c559001ce9b6cf/2021-12-28/bigram.txt None
+[2021-12-28 03:06:59,826] {logging_mixin.py:104} INFO - \606759aed9c559001ce9b6cf/2021-12-28/trigram.txt None
+[2021-12-28 03:06:59,855] {logging_mixin.py:104} INFO - \606759aed9c559001ce9b6cf/2021-12-28/unigram.txt None
+[2021-12-28 03:06:59,859] {python.py:118} INFO - Done. Returned value was: None
+[2021-12-28 03:06:59,879] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=data_transform, task_id=connect_minio, execution_date=20211228T023952, start_date=20211228T030657, end_date=20211228T030659
+[2021-12-28 03:06:59,948] {taskinstance.py:1220} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-12-28 03:06:59,971] {local_task_job.py:146} INFO - Task exited with return code 0

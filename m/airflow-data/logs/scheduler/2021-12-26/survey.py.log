@@ -1,0 +1,112 @@
+[2021-12-26 13:39:58,166] {scheduler_job.py:182} INFO - Started process (PID=28) to work on /opt/airflow/dags/survey.py
+[2021-12-26 13:39:58,168] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/survey.py for tasks to queue
+[2021-12-26 13:39:58,171] {logging_mixin.py:104} INFO - [2021-12-26 13:39:58,170] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/survey.py
+[2021-12-26 13:39:59,130] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-26 13:39:59,143] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['survey']) retrieved from /opt/airflow/dags/survey.py
+[2021-12-26 13:39:59,167] {logging_mixin.py:104} INFO - [2021-12-26 13:39:59,167] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-26 13:39:59,198] {logging_mixin.py:104} INFO - [2021-12-26 13:39:59,198] {dag.py:2273} INFO - Setting next_dagrun for survey to 2021-12-26 00:00:00+00:00
+[2021-12-26 13:39:59,210] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/survey.py took 1.050 seconds
+[2021-12-26 13:40:29,824] {scheduler_job.py:182} INFO - Started process (PID=39) to work on /opt/airflow/dags/survey.py
+[2021-12-26 13:40:29,827] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/survey.py for tasks to queue
+[2021-12-26 13:40:29,830] {logging_mixin.py:104} INFO - [2021-12-26 13:40:29,830] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/survey.py
+[2021-12-26 13:40:31,169] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-26 13:40:31,182] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['survey']) retrieved from /opt/airflow/dags/survey.py
+[2021-12-26 13:40:31,212] {logging_mixin.py:104} INFO - [2021-12-26 13:40:31,212] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-26 13:40:31,233] {logging_mixin.py:104} INFO - [2021-12-26 13:40:31,233] {dag.py:2273} INFO - Setting next_dagrun for survey to 2021-12-26 00:00:00+00:00
+[2021-12-26 13:40:31,243] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/survey.py took 1.434 seconds
+[2021-12-26 13:41:01,852] {scheduler_job.py:182} INFO - Started process (PID=41) to work on /opt/airflow/dags/survey.py
+[2021-12-26 13:41:01,854] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/survey.py for tasks to queue
+[2021-12-26 13:41:01,854] {logging_mixin.py:104} INFO - [2021-12-26 13:41:01,854] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/survey.py
+[2021-12-26 13:41:02,392] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-26 13:41:02,403] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['survey']) retrieved from /opt/airflow/dags/survey.py
+[2021-12-26 13:41:02,427] {logging_mixin.py:104} INFO - [2021-12-26 13:41:02,427] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-26 13:41:02,450] {logging_mixin.py:104} INFO - [2021-12-26 13:41:02,450] {dag.py:2273} INFO - Setting next_dagrun for survey to 2021-12-26 00:00:00+00:00
+[2021-12-26 13:41:02,460] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/survey.py took 0.611 seconds
+[2021-12-26 13:41:33,127] {scheduler_job.py:182} INFO - Started process (PID=43) to work on /opt/airflow/dags/survey.py
+[2021-12-26 13:41:33,131] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/survey.py for tasks to queue
+[2021-12-26 13:41:33,134] {logging_mixin.py:104} INFO - [2021-12-26 13:41:33,134] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/survey.py
+[2021-12-26 13:41:34,597] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-26 13:41:34,613] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['survey']) retrieved from /opt/airflow/dags/survey.py
+[2021-12-26 13:41:34,654] {logging_mixin.py:104} INFO - [2021-12-26 13:41:34,654] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-26 13:41:34,706] {logging_mixin.py:104} INFO - [2021-12-26 13:41:34,706] {dag.py:2273} INFO - Setting next_dagrun for survey to 2021-12-26 00:00:00+00:00
+[2021-12-26 13:41:34,716] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/survey.py took 1.595 seconds
+[2021-12-26 13:42:05,559] {scheduler_job.py:182} INFO - Started process (PID=45) to work on /opt/airflow/dags/survey.py
+[2021-12-26 13:42:05,581] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/survey.py for tasks to queue
+[2021-12-26 13:42:05,587] {logging_mixin.py:104} INFO - [2021-12-26 13:42:05,587] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/survey.py
+[2021-12-26 13:42:15,671] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-26 13:42:15,771] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['survey']) retrieved from /opt/airflow/dags/survey.py
+[2021-12-26 13:42:15,945] {logging_mixin.py:104} INFO - [2021-12-26 13:42:15,945] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-26 13:42:16,058] {logging_mixin.py:104} INFO - [2021-12-26 13:42:16,057] {dag.py:2273} INFO - Setting next_dagrun for survey to 2021-12-26 00:00:00+00:00
+[2021-12-26 13:42:16,110] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/survey.py took 10.613 seconds
+[2021-12-26 13:42:50,941] {scheduler_job.py:182} INFO - Started process (PID=47) to work on /opt/airflow/dags/survey.py
+[2021-12-26 13:42:51,006] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/survey.py for tasks to queue
+[2021-12-26 13:42:51,271] {logging_mixin.py:104} INFO - [2021-12-26 13:42:51,254] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/survey.py
+[2021-12-26 13:42:58,844] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-26 13:42:58,956] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['survey']) retrieved from /opt/airflow/dags/survey.py
+[2021-12-26 13:42:59,013] {logging_mixin.py:104} INFO - [2021-12-26 13:42:59,012] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-26 13:42:59,045] {logging_mixin.py:104} INFO - [2021-12-26 13:42:59,045] {dag.py:2273} INFO - Setting next_dagrun for survey to 2021-12-26 00:00:00+00:00
+[2021-12-26 13:42:59,072] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/survey.py took 8.774 seconds
+[2021-12-26 13:43:29,512] {scheduler_job.py:182} INFO - Started process (PID=49) to work on /opt/airflow/dags/survey.py
+[2021-12-26 13:43:29,516] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/survey.py for tasks to queue
+[2021-12-26 13:43:29,519] {logging_mixin.py:104} INFO - [2021-12-26 13:43:29,519] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/survey.py
+[2021-12-26 13:43:31,616] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-26 13:43:31,640] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['survey']) retrieved from /opt/airflow/dags/survey.py
+[2021-12-26 13:43:31,720] {logging_mixin.py:104} INFO - [2021-12-26 13:43:31,720] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-26 13:43:31,803] {logging_mixin.py:104} INFO - [2021-12-26 13:43:31,803] {dag.py:2273} INFO - Setting next_dagrun for survey to 2021-12-26 00:00:00+00:00
+[2021-12-26 13:43:31,826] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/survey.py took 2.337 seconds
+[2021-12-26 13:44:02,366] {scheduler_job.py:182} INFO - Started process (PID=51) to work on /opt/airflow/dags/survey.py
+[2021-12-26 13:44:02,413] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/survey.py for tasks to queue
+[2021-12-26 13:44:02,631] {logging_mixin.py:104} INFO - [2021-12-26 13:44:02,437] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/survey.py
+[2021-12-26 13:44:13,001] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-26 13:44:13,009] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['survey']) retrieved from /opt/airflow/dags/survey.py
+[2021-12-26 13:44:13,065] {logging_mixin.py:104} INFO - [2021-12-26 13:44:13,065] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-26 13:44:13,096] {logging_mixin.py:104} INFO - [2021-12-26 13:44:13,096] {dag.py:2273} INFO - Setting next_dagrun for survey to 2021-12-26 00:00:00+00:00
+[2021-12-26 13:44:13,125] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/survey.py took 11.034 seconds
+[2021-12-26 13:44:43,296] {scheduler_job.py:182} INFO - Started process (PID=53) to work on /opt/airflow/dags/survey.py
+[2021-12-26 13:44:43,299] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/survey.py for tasks to queue
+[2021-12-26 13:44:43,300] {logging_mixin.py:104} INFO - [2021-12-26 13:44:43,300] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/survey.py
+[2021-12-26 13:44:48,842] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-26 13:44:48,851] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['survey']) retrieved from /opt/airflow/dags/survey.py
+[2021-12-26 13:44:48,873] {logging_mixin.py:104} INFO - [2021-12-26 13:44:48,873] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-26 13:44:48,894] {logging_mixin.py:104} INFO - [2021-12-26 13:44:48,894] {dag.py:2273} INFO - Setting next_dagrun for survey to 2021-12-26 00:00:00+00:00
+[2021-12-26 13:44:48,914] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/survey.py took 5.705 seconds
+[2021-12-26 13:45:19,251] {scheduler_job.py:182} INFO - Started process (PID=55) to work on /opt/airflow/dags/survey.py
+[2021-12-26 13:45:19,256] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/survey.py for tasks to queue
+[2021-12-26 13:45:19,272] {logging_mixin.py:104} INFO - [2021-12-26 13:45:19,272] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/survey.py
+[2021-12-26 13:45:22,251] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-26 13:45:22,283] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['survey']) retrieved from /opt/airflow/dags/survey.py
+[2021-12-26 13:45:22,986] {logging_mixin.py:104} INFO - [2021-12-26 13:45:22,986] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-26 13:45:23,051] {logging_mixin.py:104} INFO - [2021-12-26 13:45:23,051] {dag.py:2273} INFO - Setting next_dagrun for survey to 2021-12-26 00:00:00+00:00
+[2021-12-26 13:45:23,174] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/survey.py took 3.949 seconds
+[2021-12-26 13:45:53,308] {scheduler_job.py:182} INFO - Started process (PID=57) to work on /opt/airflow/dags/survey.py
+[2021-12-26 13:45:53,309] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/survey.py for tasks to queue
+[2021-12-26 13:45:53,310] {logging_mixin.py:104} INFO - [2021-12-26 13:45:53,310] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/survey.py
+[2021-12-26 13:45:54,184] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-26 13:45:54,195] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['survey']) retrieved from /opt/airflow/dags/survey.py
+[2021-12-26 13:45:54,212] {logging_mixin.py:104} INFO - [2021-12-26 13:45:54,212] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-26 13:45:54,234] {logging_mixin.py:104} INFO - [2021-12-26 13:45:54,234] {dag.py:2273} INFO - Setting next_dagrun for survey to 2021-12-26 00:00:00+00:00
+[2021-12-26 13:45:54,245] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/survey.py took 0.942 seconds
+[2021-12-26 13:46:24,396] {scheduler_job.py:182} INFO - Started process (PID=59) to work on /opt/airflow/dags/survey.py
+[2021-12-26 13:46:24,397] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/survey.py for tasks to queue
+[2021-12-26 13:46:24,398] {logging_mixin.py:104} INFO - [2021-12-26 13:46:24,398] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/survey.py
+[2021-12-26 13:46:24,942] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-26 13:46:24,952] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['survey']) retrieved from /opt/airflow/dags/survey.py
+[2021-12-26 13:46:24,971] {logging_mixin.py:104} INFO - [2021-12-26 13:46:24,971] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-26 13:46:24,990] {logging_mixin.py:104} INFO - [2021-12-26 13:46:24,990] {dag.py:2273} INFO - Setting next_dagrun for survey to 2021-12-26 00:00:00+00:00
+[2021-12-26 13:46:24,998] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/survey.py took 0.606 seconds
+[2021-12-26 13:46:55,063] {scheduler_job.py:182} INFO - Started process (PID=61) to work on /opt/airflow/dags/survey.py
+[2021-12-26 13:46:55,065] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/survey.py for tasks to queue
+[2021-12-26 13:46:55,067] {logging_mixin.py:104} INFO - [2021-12-26 13:46:55,067] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/survey.py
+[2021-12-26 13:46:56,346] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-26 13:46:56,370] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['survey']) retrieved from /opt/airflow/dags/survey.py
+[2021-12-26 13:46:56,419] {logging_mixin.py:104} INFO - [2021-12-26 13:46:56,419] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-26 13:46:56,472] {logging_mixin.py:104} INFO - [2021-12-26 13:46:56,472] {dag.py:2273} INFO - Setting next_dagrun for survey to 2021-12-26 00:00:00+00:00
+[2021-12-26 13:46:56,493] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/survey.py took 1.436 seconds
+[2021-12-26 13:47:26,613] {scheduler_job.py:182} INFO - Started process (PID=63) to work on /opt/airflow/dags/survey.py
+[2021-12-26 13:47:26,615] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/survey.py for tasks to queue
+[2021-12-26 13:47:26,617] {logging_mixin.py:104} INFO - [2021-12-26 13:47:26,616] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/survey.py
+[2021-12-26 13:47:27,334] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-26 13:47:27,347] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['survey']) retrieved from /opt/airflow/dags/survey.py
+[2021-12-26 13:47:27,375] {logging_mixin.py:104} INFO - [2021-12-26 13:47:27,375] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-26 13:47:27,409] {logging_mixin.py:104} INFO - [2021-12-26 13:47:27,408] {dag.py:2273} INFO - Setting next_dagrun for survey to 2021-12-26 00:00:00+00:00
+[2021-12-26 13:47:27,420] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/survey.py took 0.811 seconds

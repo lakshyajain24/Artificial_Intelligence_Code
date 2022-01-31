@@ -1,0 +1,51 @@
+[2021-12-28 02:35:01,439] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: data_transform.connect_mongo_postgress 2021-12-27T00:00:00+00:00 [queued]>
+[2021-12-28 02:35:02,139] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: data_transform.connect_mongo_postgress 2021-12-27T00:00:00+00:00 [queued]>
+[2021-12-28 02:35:02,139] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-28 02:35:02,140] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2021-12-28 02:35:02,140] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-28 02:35:02,386] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): connect_mongo_postgress> on 2021-12-27T00:00:00+00:00
+[2021-12-28 02:35:02,390] {standard_task_runner.py:52} INFO - Started process 48 to run task
+[2021-12-28 02:35:02,395] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'data_transform', 'connect_mongo_postgress', '2021-12-27T00:00:00+00:00', '--job-id', '54', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/data_transform.py', '--cfg-path', '/tmp/tmpjvvjfb3e', '--error-file', '/tmp/tmpis_qkpy6']
+[2021-12-28 02:35:02,395] {standard_task_runner.py:77} INFO - Job 54: Subtask connect_mongo_postgress
+[2021-12-28 02:35:03,099] {logging_mixin.py:104} INFO - Running <TaskInstance: data_transform.connect_mongo_postgress 2021-12-27T00:00:00+00:00 [running]> on host 5bb2b5ffa55c
+[2021-12-28 02:35:03,405] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=data_transform
+AIRFLOW_CTX_TASK_ID=connect_mongo_postgress
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-27T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-12-27T00:00:00+00:00
+[2021-12-28 02:35:33,627] {taskinstance.py:1455} ERROR - 192.168.0.8:27017: [Errno 111] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 61ca77d76ce66ac90f7128d2, topology_type: Unknown, servers: [<ServerDescription ('192.168.0.8', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('192.168.0.8:27017: [Errno 111] Connection refused',)>]>
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1112, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1285, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1315, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 117, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 128, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/data_transform.py", line 29, in connect_mongo_postgress
+    df= pd.DataFrame(list(users_mongo.find()))
+  File "/usr/local/lib/python3.6/site-packages/pymongo/cursor.py", line 1159, in next
+    if len(self.__data) or self._refresh():
+  File "/usr/local/lib/python3.6/site-packages/pymongo/cursor.py", line 1057, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+  File "/usr/local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1603, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1553, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1589, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib/python3.6/site-packages/pymongo/topology.py", line 530, in get_server_session
+    session_timeout = self._check_session_support()
+  File "/usr/local/lib/python3.6/site-packages/pymongo/topology.py", line 517, in _check_session_support
+    None)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/topology.py", line 218, in _select_servers_loop
+    (self._error_message(selector), timeout, self.description))
+pymongo.errors.ServerSelectionTimeoutError: 192.168.0.8:27017: [Errno 111] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 61ca77d76ce66ac90f7128d2, topology_type: Unknown, servers: [<ServerDescription ('192.168.0.8', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('192.168.0.8:27017: [Errno 111] Connection refused',)>]>
+[2021-12-28 02:35:34,243] {taskinstance.py:1503} INFO - Marking task as FAILED. dag_id=data_transform, task_id=connect_mongo_postgress, execution_date=20211227T000000, start_date=20211228T023501, end_date=20211228T023534
+[2021-12-28 02:35:36,884] {local_task_job.py:146} INFO - Task exited with return code 1

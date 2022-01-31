@@ -1,0 +1,22 @@
+[2021-12-28 03:12:13,475] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: data_transform.connect_mongo_postgress 2021-12-27T00:00:00+00:00 [queued]>
+[2021-12-28 03:12:13,529] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: data_transform.connect_mongo_postgress 2021-12-27T00:00:00+00:00 [queued]>
+[2021-12-28 03:12:13,530] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-28 03:12:13,530] {taskinstance.py:1043} INFO - Starting attempt 2 of 2
+[2021-12-28 03:12:13,531] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-28 03:12:13,556] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): connect_mongo_postgress> on 2021-12-27T00:00:00+00:00
+[2021-12-28 03:12:13,564] {standard_task_runner.py:52} INFO - Started process 89 to run task
+[2021-12-28 03:12:13,578] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'data_transform', 'connect_mongo_postgress', '2021-12-27T00:00:00+00:00', '--job-id', '63', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/data_transform.py', '--cfg-path', '/tmp/tmpd0kapjd7', '--error-file', '/tmp/tmppzl5nhfq']
+[2021-12-28 03:12:13,579] {standard_task_runner.py:77} INFO - Job 63: Subtask connect_mongo_postgress
+[2021-12-28 03:12:13,717] {logging_mixin.py:104} INFO - Running <TaskInstance: data_transform.connect_mongo_postgress 2021-12-27T00:00:00+00:00 [running]> on host 5bb2b5ffa55c
+[2021-12-28 03:12:13,839] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=data_transform
+AIRFLOW_CTX_TASK_ID=connect_mongo_postgress
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-27T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-12-27T00:00:00+00:00
+[2021-12-28 03:12:15,246] {python.py:118} INFO - Done. Returned value was: Mongo Postgress Done
+[2021-12-28 03:12:15,321] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=data_transform, task_id=connect_mongo_postgress, execution_date=20211227T000000, start_date=20211228T031213, end_date=20211228T031215
+[2021-12-28 03:12:15,417] {taskinstance.py:1220} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-12-28 03:12:15,434] {local_task_job.py:146} INFO - Task exited with return code 0

@@ -1,0 +1,25 @@
+[2021-12-27 09:11:07,055] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: data_transform.connect_minio 2021-12-27T09:08:02.778983+00:00 [queued]>
+[2021-12-27 09:11:07,123] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: data_transform.connect_minio 2021-12-27T09:08:02.778983+00:00 [queued]>
+[2021-12-27 09:11:07,125] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-27 09:11:07,127] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2021-12-27 09:11:07,128] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-27 09:11:07,203] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): connect_minio> on 2021-12-27T09:08:02.778983+00:00
+[2021-12-27 09:11:07,262] {standard_task_runner.py:52} INFO - Started process 144 to run task
+[2021-12-27 09:11:07,297] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'data_transform', 'connect_minio', '2021-12-27T09:08:02.778983+00:00', '--job-id', '43', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/data_transform.py', '--cfg-path', '/tmp/tmp7k02wod0', '--error-file', '/tmp/tmp_iijalv4']
+[2021-12-27 09:11:07,299] {standard_task_runner.py:77} INFO - Job 43: Subtask connect_minio
+[2021-12-27 09:11:07,562] {logging_mixin.py:104} INFO - Running <TaskInstance: data_transform.connect_minio 2021-12-27T09:08:02.778983+00:00 [running]> on host 5bb2b5ffa55c
+[2021-12-27 09:11:07,748] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=data_transform
+AIRFLOW_CTX_TASK_ID=connect_minio
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-27T09:08:02.778983+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-12-27T09:08:02.778983+00:00
+[2021-12-27 09:11:08,559] {logging_mixin.py:104} INFO - \606759aed9c559001ce9b6cf/2021-12-27/bigram.txt None
+[2021-12-27 09:11:08,615] {logging_mixin.py:104} INFO - \606759aed9c559001ce9b6cf/2021-12-27/trigram.txt None
+[2021-12-27 09:11:08,669] {logging_mixin.py:104} INFO - \606759aed9c559001ce9b6cf/2021-12-27/unigram.txt None
+[2021-12-27 09:11:08,677] {python.py:118} INFO - Done. Returned value was: None
+[2021-12-27 09:11:08,723] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=data_transform, task_id=connect_minio, execution_date=20211227T090802, start_date=20211227T091107, end_date=20211227T091108
+[2021-12-27 09:11:08,836] {taskinstance.py:1220} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-12-27 09:11:08,911] {local_task_job.py:146} INFO - Task exited with return code 0
