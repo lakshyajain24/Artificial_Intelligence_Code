@@ -52,7 +52,7 @@ def myfunction():
             
             
             #client = MongoClient(port=27017)
-            client = MongoClient( host= '192.168.0.8', port=27017,
+            client = MongoClient( host= '52.66.24.54', port=27017,
                           username='root',
                          password='rootpassword')
             db=client.answers
