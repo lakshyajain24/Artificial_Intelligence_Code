@@ -1,0 +1,7 @@
+wheel
+matplotlib
+pandas
+dash
+dash_bootstrap_components
+sklearn
+wordcloud
