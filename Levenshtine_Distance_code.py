@@ -3,7 +3,7 @@ Here We are going to find Levenshtein Distance between two words 'Funnily' and '
 '''
 
 # Installing the Library
-!pip install python-Levenshtein
+##!pip install python-Levenshtein
 import Levenshtein
 
 # To find the Levenshtine Distance between two strings
